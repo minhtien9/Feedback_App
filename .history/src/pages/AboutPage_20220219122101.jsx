@@ -1,0 +1,15 @@
+import React from 'react'
+import Card from '../components/UI/Card'
+
+function AboutPage() {
+    return (
+        <Card>
+            <div className='about'>
+                <h1>About This Project</h1>
+                <p>This is a React app to leave feedback for a product </p>
+            </div>
+        </Card>
+    )
+}
+
+export default AboutPage
